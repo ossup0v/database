@@ -1,0 +1,11 @@
+E:\GitRepos\dataBase\DataBase\Storage\bin\Debug\netcoreapp3.0\Storage.exe
+E:\GitRepos\dataBase\DataBase\Storage\bin\Debug\netcoreapp3.0\Storage.deps.json
+E:\GitRepos\dataBase\DataBase\Storage\bin\Debug\netcoreapp3.0\Storage.runtimeconfig.json
+E:\GitRepos\dataBase\DataBase\Storage\bin\Debug\netcoreapp3.0\Storage.runtimeconfig.dev.json
+E:\GitRepos\dataBase\DataBase\Storage\bin\Debug\netcoreapp3.0\Storage.dll
+E:\GitRepos\dataBase\DataBase\Storage\bin\Debug\netcoreapp3.0\Storage.pdb
+E:\GitRepos\dataBase\DataBase\Storage\obj\Debug\netcoreapp3.0\Storage.csprojAssemblyReference.cache
+E:\GitRepos\dataBase\DataBase\Storage\obj\Debug\netcoreapp3.0\Storage.AssemblyInfoInputs.cache
+E:\GitRepos\dataBase\DataBase\Storage\obj\Debug\netcoreapp3.0\Storage.AssemblyInfo.cs
+E:\GitRepos\dataBase\DataBase\Storage\obj\Debug\netcoreapp3.0\Storage.dll
+E:\GitRepos\dataBase\DataBase\Storage\obj\Debug\netcoreapp3.0\Storage.pdb
