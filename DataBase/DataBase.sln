@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBase", "DataBase\DataBase.csproj", "{6D0E2EE3-533D-4C49-B4A7-7C04EF01A484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "DataBase\Database.csproj", "{6D0E2EE3-533D-4C49-B4A7-7C04EF01A484}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DateBase", "DateBase", "{6DCED7E9-9C8B-4D58-AA14-E8A15AB0DAFB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{C537397E-1509-4FB5-BB96-3D3DFDB41FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{F077DDF1-0F0B-43F8-93D2-C1359856DB2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage", "Storage\Storage.csproj", "{F077DDF1-0F0B-43F8-93D2-C1359856DB2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

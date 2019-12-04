@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\DataBase.csproj": {}
+    "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\Database.csproj": {}
   },
   "projects": {
     "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj": {
@@ -66,12 +66,12 @@
         }
       }
     },
-    "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\DataBase.csproj": {
+    "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\DataBase.csproj",
-        "projectName": "DataBase",
-        "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\Database.csproj",
+        "projectName": "Database",
+        "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\Database.csproj",
         "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
         "outputPath": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\obj\\",
         "projectStyle": "PackageReference",

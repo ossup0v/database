@@ -16,12 +16,12 @@ namespace Storage.API
 
         double GetDouble(byte[] bytes);
 
-        uint GetUint32(byte[] bytes);
+        uint GetUInt32(byte[] bytes);
 
         long GetInt64(byte[] bytes);
 
         int GetInt32(byte[] bytes);
 
-        uint Getint32(byte[] bytes, int offset, int count);
+        uint GetInt32(byte[] bytes, int offset, int count);
     }
 }
