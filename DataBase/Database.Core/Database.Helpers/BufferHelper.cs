@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Storage.API;
 
-namespace Storage.Helpers
+namespace Database.Core
 {
     public class BufferHelper
     {
-        private IExtractor _extractor;
+        private Extractor _extractor;
 
-        public BufferHelper(IExtractor extractor)
+        public BufferHelper(Extractor extractor)
         {
             _extractor = extractor;
         }

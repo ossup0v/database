@@ -6,11 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Database.API\" />
+    <ProjectReference Include="..\Database.API\Database.API.csproj" />
+    <ProjectReference Include="..\Database.Core\Database.Core.csproj" />
   </ItemGroup>
 
 </Project>

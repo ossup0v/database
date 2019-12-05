@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "Storage/1.0.0": {
+      "JournalEntry/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "compile": {
-          "bin/placeholder/Storage.dll": {}
+          "bin/placeholder/JournalEntry.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Storage.dll": {}
+          "bin/placeholder/JournalEntry.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Storage/1.0.0": {
+    "JournalEntry/1.0.0": {
       "type": "project",
-      "path": "../Storage/Storage.csproj",
-      "msbuildProject": "../Storage/Storage.csproj"
+      "path": "../Storage/JournalEntry.csproj",
+      "msbuildProject": "../Storage/JournalEntry.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Storage >= 1.0.0"
+      "JournalEntry >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -59,8 +59,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj": {
-              "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj"
+            "E:\\GitRepos\\dataBase\\DataBase\\Storage\\JournalEntry.csproj": {
+              "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\JournalEntry.csproj"
             }
           }
         }

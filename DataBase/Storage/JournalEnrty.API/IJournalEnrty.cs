@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.API
+namespace JournalEntry.API
 {
     public interface IJournal
     {
@@ -17,16 +17,16 @@ namespace Core.API
 
     public interface IJournalStorage : IJournal
     {
-        
+
     }
 
     public interface IJournalData
     {
         Guid Id { get; set; }
 
-        UserInfo Creator { get; set; }   
-        
-        UserInfo LastModified { get; set; }    
+        UserInfo Creator { get; set; }
+
+        UserInfo LastModified { get; set; }
 
         IList<IEntry> Entries { get; set; }
     }
@@ -37,7 +37,7 @@ namespace Core.API
     }
 
     public class UserInfo
-    { 
-    
+    {
+
     }
 }

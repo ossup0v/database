@@ -1,5 +1,4 @@
 ﻿using Core.API;
-using Storage.API;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +7,7 @@ namespace Core
 {
     public class JournalStorage : IJournalStorage
     {
-        private IStorage _storage;
+        private IDatabase _storage;
 
         public Guid Create()
         {

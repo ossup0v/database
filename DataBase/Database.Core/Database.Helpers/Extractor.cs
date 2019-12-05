@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Storage.API;
 
-namespace Storage.Helpers
+namespace Database.Core
 {
-    public class Extractor : IExtractor
+    public class Extractor
     {
         public byte[] GetBytes(int value)
         {

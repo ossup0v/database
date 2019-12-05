@@ -2,46 +2,44 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "Core/1.0.0": {
+      "Database.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
-        "dependencies": {
-          "Storage": "1.0.0"
-        },
         "compile": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/Database.API.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/Database.API.dll": {}
         }
       },
-      "Storage/1.0.0": {
+      "Database.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "compile": {
-          "bin/placeholder/Storage.dll": {}
+          "bin/placeholder/Database.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Storage.dll": {}
+          "bin/placeholder/Database.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Core/1.0.0": {
+    "Database.API/1.0.0": {
       "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
+      "path": "../Database.API/Database.API.csproj",
+      "msbuildProject": "../Database.API/Database.API.csproj"
     },
-    "Storage/1.0.0": {
+    "Database.Core/1.0.0": {
       "type": "project",
-      "path": "../Storage/Storage.csproj",
-      "msbuildProject": "../Storage/Storage.csproj"
+      "path": "../Database.Core/Database.Core.csproj",
+      "msbuildProject": "../Database.Core/Database.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Core >= 1.0.0"
+      "Database.API >= 1.0.0",
+      "Database.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,9 +49,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\DataBase.csproj",
-      "projectName": "DataBase",
-      "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\DataBase.csproj",
+      "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\Database.csproj",
+      "projectName": "Database",
+      "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\Database.csproj",
       "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
       "outputPath": "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\obj\\",
       "projectStyle": "PackageReference",
@@ -77,8 +75,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj": {
-              "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj"
+            "E:\\GitRepos\\dataBase\\DataBase\\Database.API\\Database.API.csproj": {
+              "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Database.API\\Database.API.csproj"
+            },
+            "E:\\GitRepos\\dataBase\\DataBase\\Database.Core\\Database.Core.csproj": {
+              "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Database.Core\\Database.Core.csproj"
             }
           }
         }

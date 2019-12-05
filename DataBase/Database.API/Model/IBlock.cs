@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Storage.API
+namespace Database.API
 {
-    public interface IBlockStorage
+    public interface IBlockDatabase
     {
         int BlockHeaderSize { get; }
 

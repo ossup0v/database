@@ -4,14 +4,14 @@
     "E:\\GitRepos\\dataBase\\DataBase\\DataBase\\Database.csproj": {}
   },
   "projects": {
-    "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj": {
+    "E:\\GitRepos\\database\\Database\\Database.API\\Database.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\GitRepos\\database\\Database\\Database.API\\Database.API.csproj",
+        "projectName": "Database.API",
+        "projectPath": "E:\\GitRepos\\database\\Database\\Database.API\\Database.API.csproj",
         "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
-        "outputPath": "E:\\GitRepos\\dataBase\\DataBase\\Core\\obj\\",
+        "outputPath": "E:\\GitRepos\\database\\Database\\Database.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,11 +32,65 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {
-              "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj": {
-                "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj"
-              }
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\GitRepos\\database\\Database\\Database.Core\\Database.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitRepos\\database\\Database\\Database.Core\\Database.Core.csproj",
+        "projectName": "Database.Core",
+        "projectPath": "E:\\GitRepos\\database\\Database\\Database.Core\\Database.Core.csproj",
+        "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
+        "outputPath": "E:\\GitRepos\\database\\Database\\Database.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://packagesource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetrepo.comindware.com/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -95,68 +149,13 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj": {
-                "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Core\\Core.csproj"
+              "E:\\GitRepos\\dataBase\\DataBase\\Database.API\\Database.API.csproj": {
+                "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Database.API\\Database.API.csproj"
+              },
+              "E:\\GitRepos\\dataBase\\DataBase\\Database.Core\\Database.Core.csproj": {
+                "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Database.Core\\Database.Core.csproj"
               }
             }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.0": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj",
-        "projectName": "Storage",
-        "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj",
-        "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
-        "outputPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nugetrepo.comindware.com/api/v2": {}
-        },
-        "frameworks": {
-          "netcoreapp3.0": {
-            "projectReferences": {}
           }
         },
         "warningProperties": {

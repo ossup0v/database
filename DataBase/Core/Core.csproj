@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Storage\Storage.csproj" />
+    <ProjectReference Include="..\Storage\JournalEntry.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core.API\" />
   </ItemGroup>
 
 </Project>

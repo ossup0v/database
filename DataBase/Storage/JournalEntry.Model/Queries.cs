@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.API
+namespace JournalEntry.Model
 {
 
     public class DatabaseQuery

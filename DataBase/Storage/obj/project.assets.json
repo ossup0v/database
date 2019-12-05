@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj",
-      "projectName": "Storage",
-      "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\Storage.csproj",
+      "projectUniqueName": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\JournalEntry.csproj",
+      "projectName": "JournalEntry",
+      "projectPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\JournalEntry.csproj",
       "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
       "outputPath": "E:\\GitRepos\\dataBase\\DataBase\\Storage\\obj\\",
       "projectStyle": "PackageReference",
